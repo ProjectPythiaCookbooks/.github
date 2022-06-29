@@ -17,7 +17,7 @@ hosted on the [Project Pythia Cookbooks gallery](https://cookbooks.projectpythia
     1. Your browser should be directed to the newly created repository under your GitHub account. Under Settings, enable GitHub Pages by changing the Source from "None" to `gh-pages` and clicking on "Save"
     1. [Clone the repo](https://foundations.projectpythia.org/foundations/github/github-cloning-forking.html) in your local workspace and `cd` into your cookbook directory
 1. Create the environment
-    1. Edit `environment.yml`: change the name to `<your-cookbook-name>-dev` (e.g. `cesm-cookbook-dev`) and add all required libraries and other dependencies under `dependencies:`. Commit the changes
+    1. Within `environment.yml`, change `name:` from `cookbook-dev` to `<your-cookbook-name>-dev` (e.g. `cesm-cookbook-dev`) and add all required libraries and other dependencies under `dependencies:`. Commit the changes
     1. Create the Conda environment with `conda env create -f environment.yml`. If it crashes, try running `conda config --set channel_priority strict`
     1. Activate your environment with `conda activate <env-name>`
 1. Add content
