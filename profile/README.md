@@ -1,5 +1,3 @@
-[Cookbook Contributor's Guide](https://github.com/ProjectPythiaCookbooks/.github/blob/main/CONTRIBUTING.md)
+This organization is no longer in use.
 
----
-
-Other content, including [Foundations](https://foundations.projectpythia.org/), can be found in the main [ProjectPythia organization](https://github.com/ProjectPythia).
+Please find all our content in the [ProjectPythia organization](https://github.com/ProjectPythia).
